@@ -2,7 +2,7 @@ import requests
 import time
 
 def check_panda(email, password):
-    url = "https://api.pandavpn.com/v1/user/login"
+    url = "https://api.iajee.com/api/v2/users/app/login"
     headers = {
         "User-Agent": "Mozilla/5.0",
         "Content-Type": "application/json"
